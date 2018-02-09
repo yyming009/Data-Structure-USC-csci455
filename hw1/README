@@ -1,0 +1,65 @@
+Name: Yan Yiming
+USC NetId: 5552625298
+CSCI 455 PA1
+Spring 2017
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course.
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+
+1. What is the probability of each of the three outcomes in a trial: two heads, one head and one tail, and two tails? Why is one of them different than the other two?
+
+Answer: the probability of two heads, one head and one tail, and two tails are 25%, 50%, 25% respectively. Assume there are two coins A and B, there are four cases: both A and B are head;
+	both A and B are tails; A is head while B is tail; A is tail while B is tail. So there is 25% possibility each. However, we can regard "A is head while B is tail" and "A is tail while
+	B is head" as one condition, therefore the possibility of "one coin is head while the other coin is tail" is 50%.
+
+2. Roughly how many trials do you need to do before you mostly get results within 1% of these probabilities? Do several simulations using your program to determine an answer to this.
+
+Answer: about 1000.
+
+3. Roughly how many trials can you do before it crashes with an overflow error? State the largest value you tried where it still worked correctly, and one where it overflowed. 
+   You can get an idea of what general values to try by looking at the limits on Java integers (see Section 4.1.1 of the text).
+   Play around with your program to verify that it actually works for very large values that are within the limits. 
+   Warning: For very large values you may have to wait a fair amount of time before you get the results (probably slower on aludra than on you own machine).
+
+Answer: It worked at 2147483647 trials. It stopped working after I tried 2147483648. 
+	Because the number 2147483647 is the maximum positive value for a 32-bit signed binary integer in computing, where the 1 int = 4 byte, 1 byte = 8 bits.

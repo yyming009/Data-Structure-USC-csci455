@@ -1,0 +1,18 @@
+﻿  listFuncs.cpp
+  grades.cpp
+  Generating Code...
+  Compiling...
+  pa5list.cpp
+  Table.cpp
+d:\csci_455\hw5\hw5\listfuncs.h(20): warning C4099: 'Node': type name first seen using 'class' now seen using 'struct'
+  d:\csci_455\hw5\hw5\listfuncs.h(20): note: see declaration of 'Node'
+d:\csci_455\hw5\hw5\table.cpp(88): warning C4018: '<': signed/unsigned mismatch
+d:\csci_455\hw5\hw5\table.cpp(97): warning C4018: '<': signed/unsigned mismatch
+d:\csci_455\hw5\hw5\table.cpp(127): warning C4018: '<': signed/unsigned mismatch
+d:\csci_455\hw5\hw5\table.cpp(138): warning C4018: '<': signed/unsigned mismatch
+d:\csci_455\hw5\hw5\table.cpp(148): warning C4018: '<': signed/unsigned mismatch
+d:\csci_455\hw5\hw5\table.cpp(156): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+grades.obj : error LNK2005: main already defined in concord.obj
+pa5list.obj : error LNK2005: main already defined in concord.obj
+D:\CSCI_455\hw5\x64\Debug\hw5.exe : fatal error LNK1169: one or more multiply defined symbols found
